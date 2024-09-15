@@ -6,6 +6,8 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./ui/**/*.{ts,tsx}",        // Yeni alias ile uyumlu
+    "./magicui/**/*.{ts,tsx}"    // Yeni alias ile uyumlu
   ],
   theme: {
     container: {
@@ -32,5 +34,7 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate")
+  ],
 };
