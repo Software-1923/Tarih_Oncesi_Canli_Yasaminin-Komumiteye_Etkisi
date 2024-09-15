@@ -20,7 +20,7 @@ export default function Home() {
             <p className="pb-6 font-medium">
             - &quot;Bilgiyi derinleştirir: Kendi varlığımız ve evren hakkında düşünmemizi sağlar.&quot;
             </p>
-            <p className="pb-6 font-medium">,
+            <p className="pb-6 font-medium">
             - &quot;Ahlak üzerine düşünür: Doğruyu ve yanlışı anlamamıza yardım eder.&quot;
             </p>
             <p className="pb-6 font-medium">
