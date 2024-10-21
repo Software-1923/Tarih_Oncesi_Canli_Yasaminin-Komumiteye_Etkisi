@@ -11,7 +11,9 @@ const SECTION_DATA = [
   { label: 2, href: "/page-2", isFirst: true, isLast: false },
   { label: 3, href: "/page-3", isFirst: true, isLast: false },
   { label: 4, href: "/page-4", isFirst: true, isLast: false },
-  { label: 5, href: "/page-5", isFirst: false, isLast: true },
+  { label: 5, href: "/page-5", isFirst: true, isLast: false },
+  { label: 6, href: "/page-6", isFirst: true, isLast: false },
+  { label: 7, href: "/page-7", isFirst: false, isLast: true },
 ];
 
 export default function Wrapper({ children }: { children: React.ReactNode }) {
@@ -47,7 +49,7 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
           <span
             className={`name group ml-2 inline-block rounded-3xl bg-[#fafafa] px-3 text-sm font-bold text-black`}
           >
-            <span className="">v0.2</span>
+            <span className="">v0.4</span>
           </span>
         </Link>
 

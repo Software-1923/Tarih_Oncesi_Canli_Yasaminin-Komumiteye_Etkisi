@@ -14,12 +14,12 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Tanımı
+              Bağlılık Kavramı
             </span>
             <p className="pb-6 font-medium">
-            &quot;Felsefe, &apos;bilgelik sevgisi&apos;  anlamına gelir ve insanın evreni, varoluşu ve hayatı anlamaya yönelik derin düşünme ve sorgulama faaliyetidir. Kesin cevaplardan çok sorular sormak felsefenin doğasında vardır.&quot;
+            &quot;Bağlılık, birine ya da bir amaca içten sevgi ve saygı beslemek anlamına gelir. Bu, kişinin kendine ve topluma karşı sorumluluğunu gösterir.&quot;
             </p>
 
 

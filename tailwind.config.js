@@ -32,9 +32,20 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      // Custom scrollbar styling
+      scrollbarWidth: {
+        thin: 'thin',
+      },
+      scrollbarColor: {
+        primary: '#6B7280',
+      }
     },
   },
   plugins: [
-    require("tailwindcss-animate")
+    require("tailwindcss-animate"),  // Mevcut animasyon plugin'i
+    require('tailwind-scrollbar'),   // Scroll bar plugin'i
   ],
+  variants: {
+    scrollbar: ['rounded'], // Scrollbar'ı yuvarlatmak için variant desteği
+  }
 };

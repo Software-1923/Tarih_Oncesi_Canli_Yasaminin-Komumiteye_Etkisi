@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pag from "@/public/images/end.jpg";
+import pag from "@/public/images/5.jpg";
 
 export default function Home() {
   return (
@@ -13,12 +13,12 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Son Kısım
+              Soru ve Cevaplar
             </span>
             <p className="pb-6 font-medium">
-            &quot;Bu sunumda, felsefenin temel yönlerine kısa bir bakış attık. Felsefe, soru sormayı teşvik eden ve düşünce dünyamızı genişleten bir disiplindir.&quot;
+            &quot; Metindeki sorular: Erdemli insan nasıl olmalıdır?, Üstün erdemler nelerdir?&quot;
             </p>
           </div>
         </Wrapper>
