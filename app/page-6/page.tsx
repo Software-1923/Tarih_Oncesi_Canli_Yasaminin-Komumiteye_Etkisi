@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pag from "@/public/images/6.png";
+import pag from "@/public/images/3.jpeg";
 
 export default function Home() {
   return (
@@ -15,12 +15,10 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Diğer Filozoflar ve Sözleri
+              Beyin ve Görme
             </span>
             <p className="pb-6 font-medium">
-            &quot;Konfüçyüs: &quot;Kendini düzeltmeden, başkalarını düzeltemezsin.&quot; &quot;
-            &quot;Sokrates: &quot;Kendini bil!&quot; &quot;
-            &quot;Aristoteles: &quot;Erdem, alışkanlıktan gelir.&quot; &quot;
+            &quot;Görme merkezi, beynin oksipital lobunda bulunur. Görme süreci sırasında sağ ve sol görme alanları birleşerek bütün bir görüntü oluşturur.&quot;
             </p>
           </div>
         </Wrapper>

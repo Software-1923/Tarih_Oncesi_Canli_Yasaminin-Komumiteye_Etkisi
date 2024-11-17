@@ -13,12 +13,12 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[44px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
             >
-              Merkezi Sinir Sistemi ve Göz
+              Sonuç
             </span>
             <p className="pb-6 font-medium">
-            &quot;Göz hareketleri, beyincik tarafından koordine edilir. Görme bilgileri, optik sinirler aracılığıyla beyne iletilir ve burada işlenir. Örneğin, görme korteksi renk, şekil ve hareketleri analiz eder.&quot;
+            &quot;Göz, görme sistemi ve beynin iş birliği sayesinde çevremizi algılamamızı sağlar. Görme bozukluklarının anlaşılması ve tarihsel katkılar, bu mekanizmanın daha iyi kavranmasına yardımcı olur.&quot;
             </p>
           </div>
         </Wrapper>
@@ -28,7 +28,7 @@ export default function Home() {
 
       <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#d6ebe9] p-9">
         <Spline
-          scene="https://prod.spline.design/rvkLRXryuAGrQd7Z/scene.splinecode"
+          scene="https://prod.spline.design/pPHrngw7uFBX5VJn/scene.splinecode"
           className="w-full h-full"
         />
       </section>

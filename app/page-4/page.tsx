@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pageA4 from "@/public/images/4.jpg";
+import pageA4 from "@/public/images/grm.jpeg";
 
 export default function Home() {
   return (
@@ -15,10 +15,19 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Toplumsal Birlik
+              Görme Bozuklukları
             </span>
             <p className="pb-6 font-medium">
-            - &quot;Bağlılık, bilgelik ve içtenlik, ideal bir toplumun temel erdemleri arasında yer alır. Bu erdemler, bireysel davranışların toplumun geneline etkisini açıklar.&quot;
+            - &quot;Astigmatizm: Kornea veya mercek yüzeyindeki eğriliklerden kaynaklanan bulanık görme.&quot;
+            </p>
+            <p className="pb-6 font-medium">
+            - &quot;Miyopi: Gözün ön kısmının aşırı uzun olması nedeniyle uzak nesneleri net görememe.&quot;
+            </p>
+            <p className="pb-6 font-medium">
+            - &quot;Hipermetropi: Gözün kısa olması nedeniyle yakın nesneleri net görememe.&quot;
+            </p>
+            <p className="pb-6 font-medium">
+            - &quot;Renk Körlüğü: Bazı renklerin algılanamaması veya karıştırılması, genellikle genetik kaynaklıdır.&quot;
             </p>
           </div>
         </Wrapper>

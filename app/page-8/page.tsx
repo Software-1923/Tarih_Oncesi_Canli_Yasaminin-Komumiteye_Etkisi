@@ -1,11 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pageA4 from "@/public/images/optik-kiyazma.jpg";
+import pag from "@/public/images/ibn-i-heysem.jpg";
 
 export default function Home() {
   return (
@@ -14,12 +13,12 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[44px] font-bold text-black dark:text-white`}
             >
-              Görme Süreci
+              İbn Heysem ve Optiğe Katkıları
             </span>
             <p className="pb-6 font-medium">
-            - &quot;Işık, göz merceğinden geçerek retina üzerine düşer. Retinada algılanan görüntü, sinir sinyalleriyle beyne iletilir. Optik kiyasma, görme yollarının kesişim noktasıdır.&quot;
+            &quot;İbn Heysem, ışığın doğrusal yayılımını ve yansıma kurallarını keşfetmiştir. Kitab el-Menazir adlı eseri, modern optiğin temelini oluşturur ve gözün ışık algılama sürecine dair açıklamalar içerir.&quot;
             </p>
           </div>
         </Wrapper>
@@ -28,7 +27,7 @@ export default function Home() {
       {/* second half */}
 
       <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#ffefd6] p-9">
-        <Image src={pageA4} alt="Boy and girl playing with robot" />
+        <Image src={pag} alt="Boy and girl playing with robot" />
       </section>
     </section>
   );

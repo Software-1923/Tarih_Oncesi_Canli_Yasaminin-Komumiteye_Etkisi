@@ -5,7 +5,7 @@ import Link from "next/link";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import manWIthRobot from "@/public/images/2.jpg";
+import manWIthRobot from "@/public/images/gz.png";
 
 export default function Home() {
   return (
@@ -16,10 +16,10 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Bağlılık Kavramı
+              Gözün Genel Yapısı
             </span>
             <p className="pb-6 font-medium">
-            &quot;Bağlılık, birine ya da bir amaca içten sevgi ve saygı beslemek anlamına gelir. Bu, kişinin kendine ve topluma karşı sorumluluğunu gösterir.&quot;
+            &quot;Göz, üç ana tabakadan oluşur: Sklera (dış koruyucu tabaka), Koroit (damarlı tabaka), ve Retina (görme işleminin gerçekleştiği tabaka). Bu yapı, ışığı alıp sinir sinyallerine çevirerek görme sürecini başlatır.&quot;
             </p>
 
 

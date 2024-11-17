@@ -15,10 +15,13 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Soru ve Cevaplar
+              Yaşa Bağlı Görme Sorunları
             </span>
             <p className="pb-6 font-medium">
-            &quot; Metindeki sorular: Erdemli insan nasıl olmalıdır?, Üstün erdemler nelerdir?&quot;
+            &quot;Katarakt: Merceğin bulanıklaşmasıyla görme kaybına neden olur.&quot;
+            </p>
+            <p className="pb-6 font-medium">
+            &quot;Glokom (Göz Tansiyonu): Göz içi basıncının artması sonucu optik sinire zarar verir.&quot;
             </p>
           </div>
         </Wrapper>

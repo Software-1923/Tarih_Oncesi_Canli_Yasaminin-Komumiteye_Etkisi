@@ -13,7 +13,9 @@ const SECTION_DATA = [
   { label: 4, href: "/page-4", isFirst: true, isLast: false },
   { label: 5, href: "/page-5", isFirst: true, isLast: false },
   { label: 6, href: "/page-6", isFirst: true, isLast: false },
-  { label: 7, href: "/page-7", isFirst: false, isLast: true },
+  { label: 7, href: "/page-7", isFirst: true, isLast: false },
+  { label: 8, href: "/page-8", isFirst: true, isLast: false },
+  { label: 9, href: "/page-9", isFirst: false, isLast: true },
 ];
 
 export default function Wrapper({ children }: { children: React.ReactNode }) {

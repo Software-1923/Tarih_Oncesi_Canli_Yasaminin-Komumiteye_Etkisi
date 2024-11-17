@@ -31,7 +31,7 @@ const spaceMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Felsefe Sunumu",
+  title: "Biyoloji Sunumu",
   generator: "Next.js",
   applicationName: "Sunum Uygulaması",
   referrer: "origin-when-cross-origin",
