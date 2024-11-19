@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import FlickeringGrid from "@/components/magicui/flickering-grid";
-import Spline from "@splinetool/react-spline/next";
+import robotImage from "@/public/robot.png"; // robot görselini doğru bir dosya yolu ile değiştirin.
 
 export default function Home() {
   return (
@@ -12,9 +12,7 @@ export default function Home() {
       <section className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
-            <span
-              className="-mt-14 inline-block text-[52px] font-bold text-black dark:text-white"
-            >
+            <span className="-mt-14 inline-block text-[52px] font-bold text-black dark:text-white">
               Gözün Yapısı
             </span>
             <div className="relative h-[180px] rounded-lg w-full bg-background overflow-hidden border">
@@ -30,30 +28,18 @@ export default function Home() {
                   width={900}
                 />
                 <p className="pb-6 font-medium"></p>
-                <p className="pb-6 font-medium">
-                  - Gözün Genel Yapısı
-                </p>
-                <p className="pb-6 font-medium">
-                  - Görme Süreci
-                </p>
-                <p className="pb-6 font-medium">
-                  - Görme Bozuklukları
-                </p>
-                <p className="pb-6 font-medium">
-                  - Yaşa Bağlı Görme Sorunları
-                </p>
-                <p className="pb-6 font-medium">
-                  - Beyin ve Görme
-                </p>
+                <p className="pb-6 font-medium">- Gözün Genel Yapısı</p>
+                <p className="pb-6 font-medium">- Görme Süreci</p>
+                <p className="pb-6 font-medium">- Görme Bozuklukları</p>
+                <p className="pb-6 font-medium">- Yaşa Bağlı Görme Sorunları</p>
+                <p className="pb-6 font-medium">- Beyin ve Görme</p>
                 <p className="pb-6 font-medium">
                   - Merkezi Sinir Sistemi ve Göz
                 </p>
                 <p className="pb-6 font-medium">
                   - İbn Heysem ve Optiğe Katkıları
                 </p>
-                <p className="pb-6 font-medium">
-                  - Sonuç
-                </p>
+                <p className="pb-6 font-medium">- Sonuç</p>
               </div>
               <p className="pb-6 font-medium">
                 - Yapımcı{" "}
@@ -76,10 +62,13 @@ export default function Home() {
       </section>
 
       {/* Sağ kısım: 3D önizleme */}
-      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#d6ebe9] p-9">
-        <Spline
-          scene="https://prod.spline.design/7xZqx-OaD31gYMTQ/scene.splinecode"
-          className="w-full h-full"
+      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#e0f5ff] p-9">
+        <Image
+          src={robotImage} // Görsel kaynağı
+          alt="Man sitting in wheelchair"
+          width={400} // Örnek boyut
+          height={400} // Örnek boyut
+          className="object-contain"
         />
       </section>
     </section>

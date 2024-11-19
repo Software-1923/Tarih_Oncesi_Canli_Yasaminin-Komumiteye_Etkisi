@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 import Spline from "@splinetool/react-spline/next";
-import pag from "@/public/images/end.jpg";
+import pag from "@/public/images/plus-eyes-end.png";
 
 export default function Home() {
   return (
@@ -26,11 +26,8 @@ export default function Home() {
 
       {/* second half */}
 
-      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#d6ebe9] p-9">
-        <Spline
-          scene="https://prod.spline.design/pPHrngw7uFBX5VJn/scene.splinecode"
-          className="w-full h-full"
-        />
+      <section className="hidden lg:flex h-screen w-full flex-col justify-center items-center bg-[#ffefd6] p-9">
+        <Image src={pag} alt="Boy and girl playing with robot" />
       </section>
     </section>
   );
