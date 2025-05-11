@@ -38,9 +38,8 @@ export default function Home() {
                 <p className="pb-6 font-medium">- Türler Gerçekten "Aynı" mı?</p>
                 <p className="pb-6 font-medium">- Geçmişi Geri Getirmek Ne Kadar Doğru?</p>
                 <p className="pb-6 font-medium">
-                  - Yapımcı
+                  - Yapımcı ve Kaynakçalar
                 </p>
-                <p className="pb-6 font-medium">- Kaynakçalar</p>
               </div>
               <p className="pb-6 font-medium">
                 - Yapımcı{" "}

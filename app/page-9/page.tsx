@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 import Spline from "@splinetool/react-spline/next";
-import pag from "@/public/images/plus-eyes-end.png";
+import pag from "@/public/images/end.png";
 
 export default function Home() {
   return (
@@ -13,15 +13,20 @@ export default function Home() {
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
             <span
-              className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
+              className={`-mt-14 inline-block text-[54px] font-bold text-black dark:text-white`}
             >
               Kaynakçalar ve Yapımcı
             </span>
             <p className="pb-6 font-medium">
              Kullandığım Kaynakçalar:
+            </p>
+             <p className="pb-6 font-medium">
               + Evrim Ağacı: ("https://www.youtube.com/watch?v=Mm5DN7nfXes&ab")
+             </p>
+            <p className="pb-6 font-medium">
               + Colossal Laboratories & Biosciences ("https://colossal.com", "https://colossal.com/technology")
             </p>
+            <p className="pb-6 font-medium"> ^_~ Berkay ÇINAR</p>
           </div>
         </Wrapper>
       </section>

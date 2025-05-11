@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 import Spline from "@splinetool/react-spline/next";
-import pag from "@/public/images/eyes-end.png";
+import pag from "@/public/images/7.png";
 
 export default function Home() {
   return (

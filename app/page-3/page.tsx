@@ -5,7 +5,7 @@ import Link from "next/link";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pageA4 from "@/public/images/optik-kiyazma.jpg";
+import pageA4 from "@/public/images/dna.png";
 
 export default function Home() {
   return (

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Wrapper from "@/components/wrapper";
 import { Button } from "@/components/ui/button";
 
-import pag from "@/public/images/ibn-i-heysem.jpg";
+import pag from "@/public/images/8.png";
 
 export default function Home() {
   return (
