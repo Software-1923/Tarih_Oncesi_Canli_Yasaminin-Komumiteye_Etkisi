@@ -15,10 +15,15 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Beyin ve Görme
+              Tartışma ve Gelecek
             </span>
             <p className="pb-6 font-medium">
-            &quot;Görme merkezi, beynin oksipital lobunda bulunur. Görme süreci sırasında sağ ve sol görme alanları birleşerek bütün bir görüntü oluşturur.&quot;
+               🔹 Bilim insanları bu süreci dikkatle izliyor.
+            </p>
+            <p className="pb-6 font-medium">
+               🔹 Sorular:
+                    ◦ Türler gerçekten "aynı" mı?
+                    ◦ Geçmişi geri getirmek ne kadar doğru?
             </p>
           </div>
         </Wrapper>

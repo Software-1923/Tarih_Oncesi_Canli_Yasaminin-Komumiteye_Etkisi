@@ -12,9 +12,12 @@ export default function Home() {
       <section className="flex h-screen w-full flex-col justify-between p-9 lg:h-auto">
         <Wrapper>
           <div className="mx-auto flex max-w-sm flex-col justify-between">
-            <span className="-mt-14 inline-block text-[52px] font-bold text-black dark:text-white">
-              Gözün Yapısı
+            <span className="-mt-14 inline-block text-[40px] font-bold text-black dark:text-white">
+              Tarih Öncesi Canlıların Kömiteye Etkisi
             </span>
+            <p className="pb-6 font-medium">
+              🔹 Genetik mühendislik yoluyla geçmişe yolculuk: Bilim, soyu tükenmiş türleri geri getirmeye çalışıyor&quot;
+            </p>
             <div className="relative h-[180px] rounded-lg w-full bg-background overflow-hidden border">
               <div className="scroll-container relative overflow-y-auto max-h-[200px] scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-400">
                 <FlickeringGrid
@@ -27,19 +30,17 @@ export default function Home() {
                   height={800}
                   width={900}
                 />
-                <p className="pb-6 font-medium"></p>
-                <p className="pb-6 font-medium">- Gözün Genel Yapısı</p>
-                <p className="pb-6 font-medium">- Görme Süreci</p>
-                <p className="pb-6 font-medium">- Görme Bozuklukları</p>
-                <p className="pb-6 font-medium">- Yaşa Bağlı Görme Sorunları</p>
-                <p className="pb-6 font-medium">- Beyin ve Görme</p>
+                <p className="pb-6 font-medium"> </p>
+                <p className="pb-6 font-medium">- Tarih Öncesine Kısa Bakış</p>
+                <p className="pb-6 font-medium">- Genetik Mühendislikle Tür Diriltimi</p>
+                <p className="pb-6 font-medium">- Colossal Biosciences Örneği</p>
+                <p className="pb-6 font-medium">- Komüniteye ve Ekosisteme Etki</p>
+                <p className="pb-6 font-medium">- Türler Gerçekten "Aynı" mı?</p>
+                <p className="pb-6 font-medium">- Geçmişi Geri Getirmek Ne Kadar Doğru?</p>
                 <p className="pb-6 font-medium">
-                  - Merkezi Sinir Sistemi ve Göz
+                  - Yapımcı
                 </p>
-                <p className="pb-6 font-medium">
-                  - İbn Heysem ve Optiğe Katkıları
-                </p>
-                <p className="pb-6 font-medium">- Sonuç</p>
+                <p className="pb-6 font-medium">- Kaynakçalar</p>
               </div>
               <p className="pb-6 font-medium">
                 - Yapımcı{" "}

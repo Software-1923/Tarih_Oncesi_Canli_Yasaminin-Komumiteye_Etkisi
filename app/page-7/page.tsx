@@ -15,10 +15,16 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[44px] font-bold text-black dark:text-white`}
             >
-              Merkezi Sinir Sistemi ve Göz
+              Türler Gerçekten "Aynı" mı?
             </span>
             <p className="pb-6 font-medium">
-            &quot;Göz hareketleri, beyincik tarafından koordine edilir. Görme bilgileri, optik sinirler aracılığıyla beyne iletilir ve burada işlenir. Örneğin, görme korteksi renk, şekil ve hareketleri analiz eder.&quot;
+               🔹 Hayır, genetik benzerlik olsa da çevresel ve kültürel bağlam farklı.
+            </p>
+            <p className="pb-6 font-medium">
+               🔹 Davranışları, beslenme alışkanlıkları ve ömürleri değişebilir.
+            </p>
+            <p className="pb-6 font-medium">
+               🔹 Modern doğada “tam bir kopya” üretmek neredeyse imkânsız.
             </p>
           </div>
         </Wrapper>

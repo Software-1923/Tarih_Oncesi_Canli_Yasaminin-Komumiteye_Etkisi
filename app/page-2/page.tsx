@@ -16,12 +16,13 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Gözün Genel Yapısı
+              Tarih Öncesine Kısa Bakış
             </span>
             <p className="pb-6 font-medium">
-            &quot;Göz, üç ana tabakadan oluşur: Sklera (dış koruyucu tabaka), Koroit (damarlı tabaka), ve Retina (görme işleminin gerçekleştiği tabaka). Bu yapı, ışığı alıp sinir sinyallerine çevirerek görme sürecini başlatır.&quot;
+              🔹 Dinozorlar (Jurassic Devri), mamutlar (Buz Devri), moa kuşları (Holosen Devri) gibi türler milyonlarca yıl önce yok oldu.
             </p>
-
+            <p className="pb-6 font-medium"> 🔹 Bu türler, dönemin ekosisteminde önemli roller oynadı. 
+            </p>
 
           </div>
         </Wrapper>

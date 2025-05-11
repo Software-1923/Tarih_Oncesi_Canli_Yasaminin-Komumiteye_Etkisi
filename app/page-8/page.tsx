@@ -15,10 +15,16 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[44px] font-bold text-black dark:text-white`}
             >
-              İbn Heysem ve Optiğe Katkıları
+              Geçmişi Geri Getirmek Ne Kadar Doğru?
             </span>
             <p className="pb-6 font-medium">
-            &quot;İbn Heysem, ışığın doğrusal yayılımını ve yansıma kurallarını keşfetmiştir. Kitab el-Menazir adlı eseri, modern optiğin temelini oluşturur ve gözün ışık algılama sürecine dair açıklamalar içerir.&quot;
+               🔹 Doğru kullanıldığında bilimsel ve ekolojik fayda sağlar.
+            </p>
+            <p className="pb-6 font-medium">
+               🔹 Ancak etik sınırlar, doğaya müdahalenin sorumluluğunu hatırlatır.
+            </p>
+            <p className="pb-6 font-medium">
+               🔹 Özetle: Bilim güçlüdür, ama sınırları insan belirlemelidir.
             </p>
           </div>
         </Wrapper>

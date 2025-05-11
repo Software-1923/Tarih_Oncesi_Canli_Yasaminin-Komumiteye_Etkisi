@@ -16,10 +16,13 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Görme Süreci
+              Genetik Mühendislikle Tür Diriltimi
             </span>
             <p className="pb-6 font-medium">
-            - &quot;Işık, göz merceğinden geçerek retina üzerine düşer. Retinada algılanan görüntü, sinir sinyalleriyle beyne iletilir. Optik kiyasma, görme yollarının kesişim noktasıdır.&quot;
+             🔹 CRISPR gibi gen düzenleme teknikleriyle DNA’lar canlandırılıyor.
+            </p>
+            <p className="pb-6 font-medium">
+             🔹 Modern türlerle eski türler arasında hibrit canlılar oluşturuluyor.
             </p>
           </div>
         </Wrapper>

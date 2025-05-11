@@ -15,13 +15,16 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[40px] font-bold text-black dark:text-white`}
             >
-              Yaşa Bağlı Görme Sorunları
+              Komüniteye ve Ekosisteme Etki
             </span>
             <p className="pb-6 font-medium">
-            &quot;Katarakt: Merceğin bulanıklaşmasıyla görme kaybına neden olur.&quot;
+              🔹 Yeni türler çevreye nasıl uyum sağlayacak?
             </p>
             <p className="pb-6 font-medium">
-            &quot;Glokom (Göz Tansiyonu): Göz içi basıncının artması sonucu optik sinire zarar verir.&quot;
+              🔹 Mevcut türler için tehdit mi, destek mi?
+            </p>
+            <p className="pb-6 font-medium">
+              🔹 İnsan toplumu ve etik tartışmalar büyüyor.
             </p>
           </div>
         </Wrapper>

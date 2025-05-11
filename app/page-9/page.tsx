@@ -15,10 +15,12 @@ export default function Home() {
             <span
               className={`-mt-14 inline-block text-[64px] font-bold text-black dark:text-white`}
             >
-              Sonuç
+              Kaynakçalar ve Yapımcı
             </span>
             <p className="pb-6 font-medium">
-            &quot;Göz, görme sistemi ve beynin iş birliği sayesinde çevremizi algılamamızı sağlar. Görme bozukluklarının anlaşılması ve tarihsel katkılar, bu mekanizmanın daha iyi kavranmasına yardımcı olur.&quot;
+             Kullandığım Kaynakçalar:
+              + Evrim Ağacı: ("https://www.youtube.com/watch?v=Mm5DN7nfXes&ab")
+              + Colossal Laboratories & Biosciences ("https://colossal.com", "https://colossal.com/technology")
             </p>
           </div>
         </Wrapper>
